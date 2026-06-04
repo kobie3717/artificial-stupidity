@@ -9,9 +9,11 @@ The opposite of AI assistants that try to solve everything. These tools help YOU
 | Tool | What it does |
 |------|-------------|
 | [rubber-duck-bot](./rubber-duck-bot) | Asks dumb questions until you solve your own problem |
+| [dangerous-duck](./dangerous-duck) | Same duck — but wipes everything if you go quiet for 30s |
 | [bad-first-draft](./bad-first-draft) | Generates terrible drafts so you have something to fix |
 | [stupid-questions](./stupid-questions) | Asks the obvious questions nobody wants to ask |
 | [bias-mirror](./bias-mirror) | Shows you what a skeptic hears when you pitch your idea |
+| [scope-explosion-bot](./scope-explosion-bot) | Overengineers everything so you're forced to argue for the simple version |
 
 ## Philosophy
 
