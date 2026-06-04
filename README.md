@@ -1,35 +1,40 @@
-# Rubber Duck Bot
+# Artificial Stupidity 🦆
 
-Artificial stupidity that's surprisingly useful.
+> A collection of AI tools that are deliberately dumb — and surprisingly useful.
 
-## What it is
+The opposite of AI assistants that try to solve everything. These tools help YOU think by being strategically useless.
 
-A CLI chatbot that never solves your problem. It only asks dumb clarifying questions, one at a time. Forces you to talk through your issue until you solve it yourself.
+## Tools
 
-## Install
+| Tool | What it does |
+|------|-------------|
+| [rubber-duck-bot](./rubber-duck-bot) | Asks dumb questions until you solve your own problem |
+| [bad-first-draft](./bad-first-draft) | Generates terrible drafts so you have something to fix |
+| [stupid-questions](./stupid-questions) | Asks the obvious questions nobody wants to ask |
+| [bias-mirror](./bias-mirror) | Shows you what a skeptic hears when you pitch your idea |
 
-```bash
-cd /root/rubber-duck-bot
-npm install
-```
+## Philosophy
 
-## Setup
+Good AI makes you dependent. Artificial stupidity makes you think.
 
-Copy `.env.example` to `.env` and add your Anthropic API key:
-
-```bash
-cp .env.example .env
-# Edit .env and set ANTHROPIC_API_KEY=sk-ant-...
-```
+Each tool here follows the same rule: **never solve the problem for you**. Instead, it creates just enough friction to get your brain working.
 
 ## Usage
 
+Each tool is standalone. Pick one, `cd` into it, install deps, add your API key:
+
 ```bash
-npm start
-# or
+cd rubber-duck-bot
+npm install
+cp .env.example .env
+# Add your ANTHROPIC_API_KEY to .env
 node index.mjs
 ```
 
-Type your problem, press Enter. The duck will ask questions. You'll solve it yourself.
+## Contributing
 
-Press `ctrl+c` to quit.
+Built something deliberately dumb? [Read CONTRIBUTING.md](./CONTRIBUTING.md) and send a PR.
+
+## License
+
+MIT

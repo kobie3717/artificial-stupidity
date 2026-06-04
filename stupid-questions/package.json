@@ -1,0 +1,14 @@
+{
+  "name": "stupid-questions",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Asks the obvious questions nobody wants to ask",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.0.0"
+  }
+}

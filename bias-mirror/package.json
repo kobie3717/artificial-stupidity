@@ -1,0 +1,14 @@
+{
+  "name": "bias-mirror",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Shows you what a skeptic hears when you pitch your idea",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.0.0"
+  }
+}
